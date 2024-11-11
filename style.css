@@ -7,8 +7,45 @@
 }
 
 .container {
-	/* background-color: #eeedec; */
-	background-color: green;
+	display: flex;
+	justify-content: centre;
+	background-color: #f1f0ef;
 	width: 100vw;
 	height: 100vh;
+	border-radius: 80px;
+
+	.hero {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		width: 90%;
+		height: 100%;
+		background-color: lightgray;
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: 4rem;
+
+			.links {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.contact-links {
+					display: flex;
+					justify-content: space-between;
+					gap: 4rem;
+					list-style-type: none;
+				}
+
+				.social-links {
+					display: flex;
+					justify-content: space-between;
+					gap: 4rem;
+					list-style-type: none;
+				}
+			}
+		}
+	}
 }
