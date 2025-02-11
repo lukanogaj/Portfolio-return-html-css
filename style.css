@@ -6,3 +6,17 @@
 	box-sizing: border-box;
 	background-color: #efeeed;
 }
+
+.container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	.navbar {
+		width: 100%;
+		background-color: red;
+		display: flex;
+	}
+}
