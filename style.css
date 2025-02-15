@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #efeeed;
+	/* background-color: #efeeed; */
 }
 
 .container {
@@ -15,8 +15,35 @@
 	flex-direction: column;
 
 	.navbar {
+		display: flex;
+		justify-content: space-between;
 		width: 100%;
 		background-color: red;
-		display: flex;
+
+		.left_side {
+			width: 50%;
+			background-color: lightgreen;
+			.left_side & ul {
+				list-style-type: none;
+			}
+		}
+		.right_side {
+			width: 50%;
+			background-color: lightblue;
+			.right_side & ul {
+				list-style-type: none;
+			}
+		}
 	}
+}
+
+/* Sudo classes */
+.right_side ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.left_side ul {
+	display: flex;
+	list-style-type: none;
 }
