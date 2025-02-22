@@ -90,11 +90,12 @@
 
 .hero {
 	display: flex;
+	justify-content: space-between;
 	margin: auto;
 	align-items: center;
-	align-content: ;
+	align-content: center;
 	width: 100%;
-	background-color: blue;
+	font-family: Lato, serif;
 
 	.picture {
 		margin: auto;
@@ -107,5 +108,20 @@
 		text-align: center;
 		margin: auto;
 		border: #f1efee solid 4px;
+	}
+
+	/* Div with name and mojo on top of image */
+	.initials {
+		display: flex;
+		justify-content: space-around;
+		position: absolute;
+		align-items: center;
+		width: 6%;
+		background-color: #ffffff;
+		right: 66rem;
+		top: 16rem;
+		padding: 8px;
+		border-radius: 2.2rem;
+		rotate: -15deg;
 	}
 }
