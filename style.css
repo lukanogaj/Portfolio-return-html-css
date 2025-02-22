@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -13,37 +15,70 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: rgb(242, 240, 238);
 
 	.navbar {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		width: 100%;
-		background-color: red;
+		font-family: Lato, serif;
 
 		.left_side {
-			width: 50%;
-			background-color: lightgreen;
-			.left_side & ul {
-				list-style-type: none;
+			display: flex;
+			justify-content: space-between;
+			align-items: centre;
+			width: 23%;
+			margin-left: 2rem;
+			/* background-color: lightgreen; */
+			padding: 1.2rem;
+			.cv {
+				align-items: center;
+				width: 40%;
+				text-align: center;
+				padding: 1rem;
+				background-color: #ffffff;
+				margin-left: 1.2rem;
+				border-radius: 1rem;
 			}
+
+			.copy_email {
+				display: flex;
+				width: 100%;
+				justify-content: space-around;
+				background-color: #f1efee;
+				border-radius: 1rem;
+				.email {
+					padding: 1rem;
+					text-align: center;
+					letter-spacing: 0.06rem;
+					/* background-color: red; */
+				}
+				.copy {
+					width: 50%;
+					padding: 1rem;
+					background-color: #ffffff;
+					margin-left: 1.2rem;
+					border-radius: 1rem;
+					text-align: center;
+				}
+			}
+
+			/* background-color: #ecedea; */
 		}
+
+		/* Right hand side menu  */
 		.right_side {
-			width: 50%;
+			display: flex;
+			justify-content: space-between;
+			width: 15%;
+			margin-right: 2rem;
+			padding: 1.2rem;
 			background-color: lightblue;
-			.right_side & ul {
-				list-style-type: none;
-			}
+			/* background-color: #ecedea; */
 		}
 	}
 }
 
 /* Sudo classes */
-.right_side ul {
-	display: flex;
-	list-style-type: none;
-}
-
-.left_side ul {
-	display: flex;
-	list-style-type: none;
-}
+/* Right Menu */
