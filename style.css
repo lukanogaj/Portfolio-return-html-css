@@ -30,8 +30,9 @@
 			align-items: centre;
 			width: 23%;
 			margin-left: 2rem;
+			border: 1.2rem;
 			/* background-color: lightgreen; */
-			padding: 1.2rem;
+			padding: 1rem;
 			.cv {
 				align-items: center;
 				width: 40%;
@@ -39,7 +40,7 @@
 				padding: 1rem;
 				background-color: #ffffff;
 				margin-left: 1.2rem;
-				border-radius: 1rem;
+				border-radius: 2.2rem;
 			}
 
 			.copy_email {
@@ -47,7 +48,7 @@
 				width: 100%;
 				justify-content: space-around;
 				background-color: #f1efee;
-				border-radius: 1rem;
+				border-radius: 2.2rem;
 				.email {
 					padding: 1rem;
 					text-align: center;
@@ -59,7 +60,7 @@
 					padding: 1rem;
 					background-color: #ffffff;
 					margin-left: 1.2rem;
-					border-radius: 1rem;
+					border-radius: 2.2rem;
 					text-align: center;
 				}
 			}
@@ -74,8 +75,13 @@
 			width: 15%;
 			margin-right: 2rem;
 			padding: 1.2rem;
-			background-color: lightblue;
-			/* background-color: #ecedea; */
+
+			.links {
+				display: flex;
+			}
+			br {
+				display: flex;
+			}
 		}
 	}
 }
