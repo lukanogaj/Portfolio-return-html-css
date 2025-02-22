@@ -86,5 +86,26 @@
 	}
 }
 
-/* Sudo classes */
-/* Right Menu */
+/* Image with initials */
+
+.hero {
+	display: flex;
+	margin: auto;
+	align-items: center;
+	align-content: ;
+	width: 100%;
+	background-color: blue;
+
+	.picture {
+		margin: auto;
+	}
+	img {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		border-radius: 30rem;
+		text-align: center;
+		margin: auto;
+		border: #f1efee solid 4px;
+	}
+}
