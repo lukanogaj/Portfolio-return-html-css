@@ -12,7 +12,7 @@
 .container {
 	display: flex;
 	width: 100vw;
-	height: 100vh;
+	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(242, 240, 238);
@@ -92,17 +92,18 @@
 	display: flex;
 	position: relative;
 	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	border-radius: 0 0 13% 13%;
 	margin-top: 150px;
 	align-items: center;
 	align-content: center;
-	width: 100%;
-	/* height: 200px; */
-	font-family: Lato, serif;
-	/* background-color: blue; */
+	font-family: Lato, sans-serif;
+	background-color: blue;
 
-	.picture {
+	/* .picture {
 		margin: auto;
-	}
+	} */
 	img {
 		display: inline-block;
 		width: 200px;
@@ -121,10 +122,82 @@
 		align-items: center;
 		width: 6%;
 		background-color: #ffffff;
-		right: 41.9%;
-		top: 17%;
+		right: 41.2%;
+		top: 8%;
 		padding: 8px;
 		border-radius: 2.2rem;
 		rotate: -12deg;
 	}
+
+	/* Main heading with latest shot button  */
+	.main_heading {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		font-family: Lato, sans-serif;
+		font-size: 2.5rem;
+		width: 50%;
+		h1 {
+			display: inline-block;
+			text-align: center;
+			letter-spacing: 0.1rem;
+		}
+	}
+	.text_shoot {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		width: 10%;
+		height: 70px;
+		margin-top: 8rem;
+		gap: 20px;
+		align-items: center;
+		text-align: center;
+		background-color: #000000;
+		font-family: Lato, sans-serif;
+		border-radius: 2.2rem;
+		color: #ffffff;
+		.arrow_line {
+			/* margin-right: 20px; */
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			.line {
+				height: 10%;
+				position: absolute;
+				top: 50%;
+			}
+		}
+	}
+}
+
+/* Div with all icons moving across */
+.floating_icons {
+	display: flex;
+	background-color: #ffffff;
+	width: 100%;
+	/* h; */
+	border-radius: 0 0 10rem 10rem;
+	margin-top: 5rem;
+	padding: 3rem;
+	.icons {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		align-content: center;
+		width: 100%;
+		.icon img {
+			width: 10rem;
+			height: 10rem;
+		}
+	}
+}
+
+.wrapper_services {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-color: red;
 }
