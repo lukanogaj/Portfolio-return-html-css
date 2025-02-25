@@ -208,9 +208,10 @@
 	}
 }
 
-.wrapper_services {
+.division {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 300px;
-	background-color: red;
+	background-color: #f1efee;
 }
