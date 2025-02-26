@@ -124,7 +124,6 @@ html {
 			height: 200px;
 			border-radius: 30rem;
 			text-align: center;
-
 			margin: auto;
 			border: #f1efee solid 4px;
 		}
@@ -253,7 +252,7 @@ html {
 			position: absolute;
 			font-size: 1.1rem;
 			text-align: center;
-			right: 50%;
+			right: 45%;
 			top: 80%;
 			padding: 20px;
 			border-radius: 2.2rem;
@@ -300,6 +299,64 @@ html {
 				font-size: 1.3rem;
 				text-align: left;
 			}
+		}
+	}
+}
+
+/* Order card , elements with the let's talk about new project */
+
+.section {
+	width: 100%;
+	background-color: #f1efee;
+	.order_card {
+		display: flex;
+		width: 100%;
+		background-color: #ffffff;
+		padding-top: 5rem;
+		border-radius: 10rem 10rem 10rem 10rem;
+		.order_image {
+			display: flex;
+			align-items: center;
+			margin: auto;
+			width: 10%;
+			background-color: #f1efee;
+			background: linear-gradient(#f1efee, #ffffff);
+			border: 3px solid lightgray;
+			border-radius: 50%;
+			justify-content: center;
+			/* z-index: 7; */
+			& > img {
+				display: inline-block;
+				width: 160px;
+				height: 200px;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.order_card {
+	display: flex;
+	width: 100%;
+	background-color: blue;
+	padding-top: 5rem;
+	border-radius: 0 0 10rem 10rem;
+	.order_image {
+		display: flex;
+		align-items: center;
+		margin: auto;
+		width: 10%;
+		background-color: #f1efee;
+		background: linear-gradient(#f1efee, #ffffff);
+		border: 3px solid lightgray;
+		border-radius: 50%;
+		justify-content: center;
+		/* z-index: 7; */
+		& > img {
+			display: inline-block;
+			width: 160px;
+			height: 200px;
+			text-align: center;
 		}
 	}
 }
