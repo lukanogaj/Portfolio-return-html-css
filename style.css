@@ -215,17 +215,19 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: auto;
 	font-family: Lato, sans-serif;
 	background-color: #f1efee;
-	/* Division heading  */
 
+	/* Division heading with the services button */
 	.services_heading {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		position: relative;
+		padding-bottom: 6rem;
 		/* background-color: red; */
 		& > h2 {
 			display: inline-block;
@@ -248,10 +250,52 @@
 			font-size: 1.1rem;
 			text-align: center;
 			right: 50%;
-			top: 94%;
+			top: 80%;
 			padding: 20px;
 			border-radius: 2.2rem;
 			rotate: -12deg;
+		}
+	}
+
+	/* Divs with the services icons and descriptions --> */
+	.services {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		background-color: #f1efee;
+		align-items: center;
+		/* padding: 5rem 5rem 5rem 5rem; */
+
+		.services_wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 25%;
+			padding: 110px;
+			/* background-color: red; */
+			.services_image {
+				width: 100%;
+				/* height: auto; */
+				& > img {
+					width: 100px;
+					height: 100px;
+				}
+			}
+		}
+		.services_head {
+			padding: 2rem 0 2rem 0;
+			& > h3 {
+				font-size: 2rem;
+				font-weight: 400;
+			}
+		}
+
+		.services_paragraph {
+			padding: 2rem 0 2rem 0;
+			& > p {
+				font-size: 1.3rem;
+				text-align: left;
+			}
 		}
 	}
 }
