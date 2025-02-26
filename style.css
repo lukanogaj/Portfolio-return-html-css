@@ -19,6 +19,7 @@ html {
 	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	background-color: red;
 	display: flex;
 	justify-content: space-around;
@@ -337,10 +338,12 @@ html {
 
 .order_card {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	background-color: blue;
 	padding-top: 5rem;
 	border-radius: 0 0 10rem 10rem;
+	/* Order card handshake image */
 	.order_image {
 		display: flex;
 		align-items: center;
@@ -356,6 +359,71 @@ html {
 			display: inline-block;
 			width: 160px;
 			height: 200px;
+			text-align: center;
+		}
+	}
+
+	/* Order card heading  */
+
+	.order_heading {
+		display: block;
+		font-size: 3.5rem;
+		text-align: center;
+
+		& > h1 {
+			padding: 5rem 10rem 0 5rem;
+			margin: auto;
+			width: 60%;
+			letter-spacing: 0.09rem;
+		}
+	}
+}
+
+.order_contact {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+	font-family: Lato, sans-serif;
+	width: 30%;
+	background-color: #ffffff;
+	height: 300px;
+	border-radius: 10rem 10rem 10rem 10rem;
+	.order_email {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 2rem;
+		width: 35%;
+		height: 30%;
+		background-color: #000000;
+		border-radius: 3rem;
+		align-items: center;
+		color: #ffffff;
+		font-size: 1.2rem;
+		border: solid 4px lightgray;
+		& > h4 {
+			width: 100%;
+			display: inline-block;
+			text-align: center;
+		}
+	}
+
+	.order_whatsup {
+		display: flex;
+		align-items: center;
+		width: 35%;
+		height: 30%;
+		background-color: #f1efee;
+		border-radius: 3rem;
+		text-align: center;
+		font-size: 1.2rem;
+		border: solid 4px lightgray;
+
+		& > h4 {
+			width: 100%;
+			display: inline-block;
+			text-align: center;
 			text-align: center;
 		}
 	}
