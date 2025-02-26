@@ -6,7 +6,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* background-color: #efeeed; */
+}
+
+html {
+	background-color: #f1efee;
+	border: solid #ffffff 4px;
 }
 
 .container {
@@ -220,7 +224,7 @@
 	height: auto;
 	font-family: Lato, sans-serif;
 	background-color: #f1efee;
-
+	border-radius: -200px;
 	/* Division heading with the services button */
 	.services_heading {
 		width: 100%;
