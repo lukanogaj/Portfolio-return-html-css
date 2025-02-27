@@ -165,7 +165,6 @@ html {
 			position: relative;
 			width: 10%;
 			height: 70px;
-			/* padding-top: 8rem; */
 			gap: 20px;
 			align-items: center;
 			text-align: center;
@@ -304,37 +303,15 @@ html {
 .section {
 	width: 100%;
 	background-color: #f1efee;
-	.order_card {
-		display: flex;
-		width: 100%;
-		background-color: #ffffff;
-		padding-top: 5rem;
-		border-radius: 10rem 10rem 10rem 10rem;
-		.order_image {
-			display: flex;
-			align-items: center;
-			margin: auto;
-			width: 10%;
-			background-color: #f1efee;
-			background: linear-gradient(#f1efee, #ffffff);
-			border: 3px solid lightgray;
-			border-radius: 50%;
-			justify-content: center;
-			& > img {
-				display: inline-block;
-				width: 160px;
-				height: 200px;
-				text-align: center;
-			}
-		}
-	}
+	/* border-radius: 10rem 10rem 10rem 10rem; */
+	
 
 	.order_card {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		padding-top: 5rem;
-		border-radius: 10rem 10rem 10rem 10rem;
+		border-radius: 10rem 10rem 0 0;
 		background-color: #ffffff;
 		/* Order card handshake image */
 		.order_image {
@@ -419,9 +396,53 @@ html {
 			}
 		}
 	}
+}
+  /* curly braces from section */
 	.footer {
 		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
 		width: 100%;
-		background-color: red;
+		background-color: #ffffff;
+		padding: 1rem;
+    border-radius: 0 0 10rem 10rem;
+		& > hr {
+			width: 90%;
+			margin: auto;
+		}
+		.footer_section {
+			display: flex;
+			justify-content: space-between;
+			width: 90%;
+			/* background-color: blue; */
+			padding: 2rem 2rem 0 2rem;
+			.trademark {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				width: 12%;
+				.footerimg {
+					/* width: 100%; */
+					& > img {
+						width: 30px;
+						height: 30px;
+					}
+				}
+				& > h3 {
+					display: inline-block;
+					text-align: center;
+					white-space: nowrap;
+				}
+			}
+
+			.footerlinks {
+				display: flex;
+				align-items: center;
+				width: 15%;
+				gap: 30px;
+			}
+		}
 	}
 }
