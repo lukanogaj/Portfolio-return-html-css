@@ -20,13 +20,12 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: red;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	background-color: #ffffff;
 	.wrapper {
-		background-color: #f1efee;
+		background-color: #ffffff;
 		width: 100%;
 		.navbar {
 			display: flex;
@@ -44,7 +43,6 @@ html {
 				width: 23%;
 				margin-left: 2rem;
 				border: 1.2rem;
-				/* background-color: lightgreen; */
 				padding: 1rem;
 				.cv {
 					align-items: center;
@@ -66,7 +64,6 @@ html {
 						padding: 1rem;
 						text-align: center;
 						letter-spacing: 0.06rem;
-						/* background-color: red; */
 					}
 					.copy {
 						width: 50%;
@@ -78,7 +75,6 @@ html {
 					}
 				}
 
-				/* background-color: #ecedea; */
 			}
 
 			/* Right hand side menu  */
@@ -117,9 +113,7 @@ html {
 		align-content: center;
 		font-family: Lato, sans-serif;
 
-		/* .picture {
-		margin: auto;
-	} */
+
 		img {
 			display: inline-block;
 			width: 60%;
@@ -192,7 +186,7 @@ html {
 /* Div with all icons moving across */
 .floating_icons {
 	display: flex;
-	background-color: #ffffff;
+	background-color: #ffff;
 	width: 100%;
 	gap: 30px;
 	border-radius: 0 0 10rem 10rem;
@@ -200,6 +194,7 @@ html {
 	.icons {
 		display: flex;
 		justify-content: space-around;
+    background-color: #ffffff;
 		align-items: center;
 		align-content: center;
 		width: 100%;
