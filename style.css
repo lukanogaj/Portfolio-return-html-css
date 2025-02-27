@@ -74,7 +74,6 @@ html {
 						text-align: center;
 					}
 				}
-
 			}
 
 			/* Right hand side menu  */
@@ -112,7 +111,6 @@ html {
 		align-items: center;
 		align-content: center;
 		font-family: Lato, sans-serif;
-
 
 		img {
 			display: inline-block;
@@ -194,7 +192,7 @@ html {
 	.icons {
 		display: flex;
 		justify-content: space-around;
-    background-color: #ffffff;
+		background-color: #ffffff;
 		align-items: center;
 		align-content: center;
 		width: 100%;
@@ -299,7 +297,6 @@ html {
 	width: 100%;
 	background-color: #f1efee;
 	/* border-radius: 10rem 10rem 10rem 10rem; */
-	
 
 	.order_card {
 		display: flex;
@@ -392,52 +389,51 @@ html {
 		}
 	}
 }
-  /* curly braces from section */
-	.footer {
+/* curly braces from section */
+.footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 1rem;
+	border-radius: 0 0 10rem 10rem;
+	& > hr {
+		width: 90%;
+		margin: auto;
+	}
+	.footer_section {
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-content: center;
-		align-items: center;
-		width: 100%;
-		background-color: #ffffff;
-		padding: 1rem;
-    border-radius: 0 0 10rem 10rem;
-		& > hr {
-			width: 90%;
-			margin: auto;
-		}
-		.footer_section {
+		justify-content: space-between;
+		width: 90%;
+		/* background-color: blue; */
+		padding: 2rem 2rem 0 2rem;
+		.trademark {
 			display: flex;
-			justify-content: space-between;
-			width: 90%;
-			/* background-color: blue; */
-			padding: 2rem 2rem 0 2rem;
-			.trademark {
-				display: flex;
-				justify-content: space-around;
-				align-items: center;
-				width: 12%;
-				.footerimg {
-					/* width: 100%; */
-					& > img {
-						width: 30px;
-						height: 30px;
-					}
-				}
-				& > h3 {
-					display: inline-block;
-					text-align: center;
-					white-space: nowrap;
+			justify-content: space-around;
+			align-items: center;
+			width: 12%;
+			.footerimg {
+				/* width: 100%; */
+				& > img {
+					width: 30px;
+					height: 30px;
 				}
 			}
+			& > h3 {
+				display: inline-block;
+				text-align: center;
+				white-space: nowrap;
+			}
+		}
 
-			.footerlinks {
-				display: flex;
-				align-items: center;
-				width: 15%;
-				gap: 30px;
-			}
+		.footerlinks {
+			display: flex;
+			align-items: center;
+			width: 15%;
+			gap: 30px;
 		}
 	}
 }
